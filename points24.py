@@ -9,10 +9,8 @@ Created:2017/11/23
 PS:因python2和python3中除法操作符有细微的差别，请保证此程序运行时为python3环境。
 
 """
-
-
+# 定义flag变量来控制程序结束
 flag = False
-
 def compute_24_points(a,inter_paths):
 	global flag
 	if flag==True:
@@ -76,7 +74,6 @@ def main():
 		if flag == False:
 			print("No Answer！")
 		flag = False
-
 if __name__ == '__main__':
 	main()
 
